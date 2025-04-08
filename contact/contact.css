@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+footer .container{
+    background-color: #cfe175bb;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+}
+.footer-col ul{
+    list-style: none;
+}
+.footer-col h4{
+    color: black;
+    font-size: 22px;
+}
+.footer-col ul li a{
+    color: rgba(32, 21, 21, 0.71);
+    font-size: 16px;
+    text-decoration: none;
+}
+.footer-col ul li a:hover{
+    opacity: 1;
+}
+.col p{
+    color: black;
+}
+.col {justify-content: end;
+    align-content: end;}
+.icons a i{
+    display: flex;
+    justify-content: right;
+    align-content: flex-end;
+    display: inline;
+    color: black;
+}
+.footer-col form input{
+    display: block;
+    margin-bottom: 2px;
+}
+.icons{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 10px;
+}
+.map h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+}
+.map{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.location a{
+    text-decoration: none;
+}
+.map a{
+    text-decoration: none;
+}
+@media (max-width: 600px) {
+    .row {
+      display: block;
+    }
+    .col p{
+        text-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+    }
+    .map h1{
+        text-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+    }
+    .map a{
+        text-wrap: nowrap;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+    .footer-col form input{
+        width: 100%;
+        padding: 8px;
+        margin: 5px 0;
+        border: none;
+        border-radius: 4px;
+    }
+    .footer-col form input[type="submit"]{
+        color: white;
+        background-color: rgb(84, 120, 53);
+        cursor: pointer;
+    }
+}    
